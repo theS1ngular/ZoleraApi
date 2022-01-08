@@ -1,9 +1,14 @@
 {
   "name": "zolera",
-  "version": "0.0.0",
-  "scripts": {
-    "start:server": "nodemon ./backend/server.js"
+  "version": "1.0.0",
+  "engines": {
+  "node": "12.16.1",
+  "npm": "6.14.5"
   },
+  "scripts": {
+    "start": "node server.js"
+  },
+
   "private": true,
   "dependencies": {
     "@hapi/joi": "^17.1.1",
@@ -19,7 +24,14 @@
     "jsonwebtoken": "^8.5.1",
     "mongodb": "^3.6.2",
     "mongoose": "^5.10.6",
-    "ngx-bootstrap": "^6.1.0"
+    "ngx-bootstrap": "^6.1.0",
+    "path": "^0.12.7",
+    "rxjs": "~6.5.5",
+    "save": "^2.4.0",
+    "serve": "^13.0.2",
+    "tslib": "^2.0.0",
+    "typescript": "~3.9.5",
+    "zone.js": "~0.10.3"
   },
   "devDependencies": {}
 }
